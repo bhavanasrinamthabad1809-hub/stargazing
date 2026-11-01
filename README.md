@@ -28,7 +28,7 @@ That's Stargazing. Every task has a **start time** and a **deadline**. At the st
 - Keeps the correct time even when the power is off, thanks to a battery-backed clock chip.
 - Repeats my tasks every day, so I only have to type them in once.
 
-**The three buttons** (left to right on the panda's belly): `start`, `not done`, `done`.
+**The three buttons** (left to right on the panda's belly): start not done done
 Pressing `done` on the home screen shows my star sky.
 
 ---
@@ -67,12 +67,12 @@ The code is written in Arduino C++
 
 | State | What's happening | How it ends |
 |---|---|---|
-| `WAITING` | Home screen: time, date, next task | A task's start time arrives, or I press DONE to see the star sky |
-| `START_ALERT` | Beeping, "TIME TO START" | I press START, or 10 minutes pass (missed) |
-| `RUNNING` | Countdown and progress bar | Deadline arrives, or I press DONE / NOT DONE early |
-| `DEADLINE` | Siren, "TIME'S UP!" | I press DONE or NOT DONE, or 2 minutes pass (not done) |
-| `RESULT` | "GREAT JOB!" or "NOT DONE" for 3 seconds | Timer ends, back to `WAITING` |
-| `SKY` | My stars | 5 seconds, or any button |
+| WAITING | Home screen: time, date, next task | A task's start time arrives, or I press DONE to see the star sky |
+| START_ALERT | Beeping, "TIME TO START" | I press START, or 10 minutes pass (missed) |
+| RUNNING | Countdown and progress bar | Deadline arrives, or I press DONE / NOT DONE early |
+| DEADLINE | Siren, "TIME'S UP!" | I press DONE or NOT DONE, or 2 minutes pass (not done) |
+| RESULT | "GREAT JOB!" or "NOT DONE" for 3 seconds | Timer ends, back to `WAITING` |
+| SKY | My stars | 5 seconds, or any button |
 
 
 **First time / changing tasks**
@@ -84,18 +84,6 @@ The code is written in Arduino C++
 
 **Every day**
 Just look at it. It will tell you what to do
-
-## Bill of materials (BOM)
-
-| Component    | Quantity | Description         | Source                       | Price |
-| ------------ | -------: | ------------------- | ---------------------------- | ----: |
-| ESP32-C3     |        1 | Microcontroller     | [link](https://robu.in/product/seeed-studio-xiao-esp32c3-tiny-mcu-board-with-wi-fi-and-ble-battery-charge-supported-power-efficiency-and-rich-interface/) | 749  |
-| OLED Display |        1 | Small display       | [link](https://robocraze.com/products/0-96in-oled-display-module-4pin) |169 |
-| 10K Resistor |        1 | Pull-up resistor    | [link](https://robocraze.com/products/10k-resistor-pack-of-10) |13|
-| switches  |        3 | User input buttons  | [link](https://amzn.in/d/0aKbDkSN) | 359 |
-| DHT11  |        1 | environment sensor  | [link](https://robu.in/product/serial-dht11-temperature-and-humidity-sensor/) | 289 |
-| PCB          |        1 | Custom-designed PCB | [link](https://jlcpcb.com/)  | 1330|
-| MPU6050 | 1 | 6-axis motion sensor module (GY-521) | [Link](https://robocraze.com/products/mpu-6050-triple-axis-accelerometer-gyroscope-module) | 151 |
 
 
 
