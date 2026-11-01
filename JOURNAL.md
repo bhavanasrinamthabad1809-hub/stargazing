@@ -26,7 +26,7 @@
 
 yahh finally entry 1
 
-hi  to the reviewer , i have a small request to you its my first ever fully custom project so can check through all i know you will do but i am scared if i made any mistake while arranging thankk youuu so muchh
+first ever fully custom hardware project
 
 i wrote my plan on notebook and planned my animal for the cad which is panda cause who gonna represent lazy ness more than panda
 
