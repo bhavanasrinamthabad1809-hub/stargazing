@@ -1,11 +1,8 @@
-# 🐼⭐ Stargazing
+#  Stargazing
 
 **A panda-shaped task clock that nags me when it's time to start, yells when time's up, and gives me a star if I actually did the thing.**
 
-![Concept render of the panda case](docs/panda-render.png)
-*(concept render of the case, the real one is still being printed)*
 
----
 
 ## Why I made this
 
@@ -55,54 +52,36 @@ What if I ignore it?
 
 ## Parts I used, and why
 
-| Part | What it does | Why I picked it |
-|---|---|---|
-| **ESP32-C3 SuperMini** | The brain. Runs the code, makes the Wi-Fi page, reads the buttons | Tiny, cheap, USB-C, Wi-Fi built in, works with Arduino |
-| **0.96" SSD1306 OLED (I2C)** | Shows the clock, task, countdown and star sky | Only 2 data wires, cheap, easy to read, perfect for pixel stars |
-| **DS3231 RTC module** | Counts the real time all the time | Very accurate, and the coin battery keeps it running when unplugged. The ESP32 forgets the time when it loses power, this doesn't |
-| **LIR2032 coin battery** | Backup power for the RTC | The module has a charging circuit built for a rechargeable cell, so a normal CR2032 isn't the right choice |
-| **5V passive buzzer** | Makes all the sounds | A passive one can play **different pitches**, so the start reminder, siren, happy jingle and sad tone all sound different |
-| **S8050 NPN transistor (Q1)** | A switch for the buzzer | An ESP32 pin can only supply a few milliamps, and the buzzer needs a lot more. The pin controls the transistor, and the transistor drives the buzzer |
-| **R1 1kΩ** | Goes between GPIO10 and the transistor's base | Limits the current going into the base so the ESP32 pin stays safe |
-| **R2 10kΩ** | Pulls the base to GND | Stops the buzzer from chirping randomly while the ESP32 is booting |
-| **D1 1N4148 diode** | Across the buzzer | A buzzer has a coil inside, and coils make a voltage spike when switched off. The diode gives that spike a harmless path |
-| **3 × 12 mm tactile switches** | Start, Not Done, Done | Big and clicky, and I already had them (they came in a combo pack with colored caps) |
-| **Custom PCB** | Holds everything together | I wanted to actually *design* a board instead of making a mess of jumper wires |
-| **3D-printed panda case** | The cute part | Because I won't ignore a panda |
+ Part What it does  Why I picked it 
+|**ESP32-C3 SuperMini** 
+The brain. Runs the code, makes the Wi-Fi page, reads the buttons  Tiny, cheap, USB-C, Wi-Fi built in, works with Arduino 
+ **0.96" SSD1306 OLED (I2C)** 
+ Shows the clock, task, countdown and star sky | Only 2 data wires, cheap, easy to read, perfect for pixel stars 
+**DS3231 RTC module**  
+Counts the real time all the time  Very accurate, and the coin battery keeps it running when unplugged. The ESP32 forgets the time when it loses power, this doesn't 
+ **LIR2032 coin battery** 
+ Backup power for the RTC The module has a charging circuit built for a rechargeable cell, so a normal CR2032 isn't the right choice 
+ **5V passive buzzer**
+ Makes all the sounds | A passive one can play different pitches, so the start reminder, siren, happy jingle and sad tone all sound different 
+S8050 NPN transistor (Q1)
+A switch for the buzzer An ESP32 pin can only supply a few milliamps, and the buzzer needs a lot more. The pin controls the transistor, and the transistor drives the buzzer
+**R1 1kΩ** 
+Goes between GPIO10 and the transistor's base Limits the current going into the base so the ESP32 pin stays safe
+**R2 10kΩ** 
+Pulls the base to GND  Stops the buzzer from chirping randomly while the ESP32 is booting 
+**D1 1N4148 diode**
+Across the buzzer  A buzzer has a coil inside, and coils make a voltage spike when switched off. The diode gives that spike a harmless path 
+ **3 × 12 mm tactile switches**  
+ Start, Not Done, Done  Big and clicky, and I already had them (they came in a combo pack with colored caps) 
+ **Custom PCB** 
+ Holds everything together  I wanted to actually *design* a board instead of making a mess of jumper wires 
+**3D-printed panda case**  
+The cute part  Because I won't ignore a panda 
 
 **Power:** just USB-C from a charger or power bank. No big battery, because it lives on my desk. The only battery is the tiny one for the RTC.
 
----
-
-## The electronics
-
-### Pin map
-
-| GPIO | Used for |
-|---|---|
-| 0 | START button |
-| 1 | DONE button |
-| 3 | NOT DONE button |
-| 5 | I2C SDA (OLED + RTC) |
-| 6 | I2C SCL (OLED + RTC) |
-| 10 | Buzzer (through R1 and Q1) |
-
-All unused pins have no-connect flags. I put NOT DONE on GPIO3 instead of GPIO2 on purpose, because GPIO2 is a *strapping pin* on the ESP32-C3 and holding a button on it at boot can cause trouble.
-
-The buttons use the ESP32's internal pull-ups, so there are no external resistors for them. The OLED and RTC share the same two I2C wires (their addresses are different, `0x3C` and `0x68`).
-
 ### schematic pcb
 
-
-
-### The board
-
-- 2-layer PCB, about **100 × 78 mm**, designed in **KiCad**.
-- Four M3 mounting holes in the corners for standoffs.
-- The USB-C end of the ESP32 faces the right edge of the board so the cable can plug in through the case.
-- The RTC module
-
----
 
 ## How the firmware works
 
@@ -118,7 +97,6 @@ The code is written in Arduino C++
 | `DEADLINE` | Siren, "TIME'S UP!" | I press DONE or NOT DONE, or 2 minutes pass (not done) |
 | `RESULT` | "GREAT JOB!" or "NOT DONE" for 3 seconds | Timer ends, back to `WAITING` |
 | `SKY` | My stars | 5 seconds, or any button |
-
 
 
 **First time / changing tasks**
@@ -154,8 +132,6 @@ Just look at it. It will tell you what to do
 | 17 | — | USB-C cable + 5 V charger | | 1 | Power and programming |
 | 18 | — | 3D-printed panda case | | 1 | Designed in Onshape (`enclosure/`) |
 
----
-
 ## Things that went wrong (so you don't repeat them)
 
 I'm putting these here on purpose, because I made all of them:
@@ -164,20 +140,7 @@ I'm putting these here on purpose, because I made all of them:
 - **Wrong transistor symbol.** `Q_NPN_ECB` and `Q_NPN_EBC` look the same but the pins are in a different order. A wrong choice means the buzzer never turns on, and you can't fix a printed board.
 - **Wrong buzzer footprint.** The library one has 7.6 mm between the pins. My buzzer has 6 mm. Always measure.
 - **Two PWR_FLAGs on GND** made KiCad throw errors. You only need one per power net.
-- **The RTC module is about 38 mm long.** Plugged in standing up, it would poke straight through the panda's face. Hence the jumper wires.
 - **Active vs passive buzzer.** I bought a passive one, so the code has to generate the tones, not just switch it on.
-
----
-
-## Status
-
-- [x] Idea, parts and schematic
-- [x] PCB layout (DRC checked)
-- [x] First version of the firmware written
-- [ ] Order the PCB and parts
-- [ ] Test the firmware on the real board
-- [ ] Finish and print the panda case
-- [ ] Put it on my desk and actually use it
 
 ## Made with
 
