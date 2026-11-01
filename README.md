@@ -78,13 +78,12 @@ The code is written in Arduino C++
 **First time / changing tasks**
 1. Unplug the clock, then plug it in **while holding START**.
 2. On your phone, join the Wi-Fi **TaskClock** (password **panda1234**, you can change both in the code).
-3. Open 192.168.4.1 in your browser.
+3. Open  in your browser.
 4. Add your tasks (name, start, deadline) and press **Save to clock**.
 5. It restarts by itself and you're done.
 
 **Every day**
 Just look at it. It will tell you what to do
-
 
 
 
