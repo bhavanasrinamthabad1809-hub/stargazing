@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 4 | Tier 1 | 15.57h | 3 |
+| Week 4 | Tier 1 | 16.57h | 3 |
 
 ## Contents
 
@@ -138,7 +138,7 @@ there is still 3-4 hours of work in cad then flimware then github
 
 ### 2026-11-01: did the cad
 
-**5.32h**
+**6.32h**
 
 did the cad
 
@@ -149,6 +149,8 @@ so it like composite part i had to it manually select every part then it became 
 then used transform tool to place wherever i wanted
 
 then started designing in cad
+
+github repo and bom time also added readme took alot of time to write
 
 eyes nose ears are like design part which took so less time
 
