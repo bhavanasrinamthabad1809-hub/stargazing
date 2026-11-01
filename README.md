@@ -33,14 +33,14 @@ Pressing `done` on the home screen shows my star sky.
 
 ---
 
-## How it works (the short version)
+## How it works 
 
 1. I load my tasks from my phone 
 2. The ESP32 keeps checking the time from the RTC.
 3. When a task's start time arrives → **start alert**.
 4. I press **START** → countdown begins.
 5. When the deadline arrives → **siren**.
-6. I press **DONE** (⭐ +1) or **NOT DONE** (no star), and it moves on to the next task.
+6. I press **DONE** ( +1) or **NOT DONE** (no star), and it moves on to the next task.
 
 What if I ignore it?
 - I never press START: after 10 minutes the task counts as **missed**.
@@ -77,8 +77,8 @@ The code is written in Arduino C++
 
 **First time / changing tasks**
 1. Unplug the clock, then plug it in **while holding START**.
-2. On your phone, join the Wi-Fi **`TaskClock`** (password **`panda1234`**, you can change both in the code).
-3. Open **`192.168.4.1`** in your browser.
+2. On your phone, join the Wi-Fi **TaskClock** (password **panda1234**, you can change both in the code).
+3. Open 192.168.4.1 in your browser.
 4. Add your tasks (name, start, deadline) and press **Save to clock**.
 5. It restarts by itself and you're done.
 
