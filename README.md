@@ -86,6 +86,11 @@ different view
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ac3dd679-c100-449a-93e4-cc475e0d090d" />
 
+with pcb view
+
+<img width="1496" height="732" alt="image" src="https://github.com/user-attachments/assets/89469e6b-856c-424e-835b-a04203da65d7" />
+
+
 
 
 
