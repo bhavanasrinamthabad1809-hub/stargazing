@@ -133,8 +133,9 @@ Just look at it. It will tell you what to do
 | S8050 transistor | 1 | works as a switch to buzzer | [Link]() |  |
 | 1k resistor | 1 | to work without the connection  | [Link]() |  |
 | jumper wires | 1 | to solder with rtc  | [Link]() |  |
-| 1N4148 diode | 1 | to solder with rtc  | [Link]() |  |
+| 1N4148 diode | 1 | to solder with rtc  | [Link](https://robu.in/product/1n4148-multicomp-pro-1n4148-diode-ultrafast-recovery-150ma-75v-do-204ah-2-2/) | $0.16 |
 | m3screws | 1 | to solder with rtc  | [Link]() |  |
+| pcb case | 1 | to place pcb  | [Link](https://robu.in/product/numaker-abs-filament-pure-white-1-75-mm-1-kg/) | $8.21  |
 
 
 ## Made with
