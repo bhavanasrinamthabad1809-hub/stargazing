@@ -51,10 +51,13 @@ What if I ignore it?
 
 
 ###  pcb
+schematic for my pcb 
 <img width="1920" height="1080" alt="Screenshot 2026-11-01 214705" src="https://github.com/user-attachments/assets/2ae9ec5c-d95f-4f67-9c3d-0795be7e12a1" />
 
+pcb 
 <img width="1920" height="1080" alt="Screenshot 2026-11-01 214755" src="https://github.com/user-attachments/assets/b4fe2c5b-f856-4b13-b285-f639c57abf4b" />
 
+3d model of my pcb
 <img width="1920" height="1080" alt="Screenshot 2026-11-01 234520" src="https://github.com/user-attachments/assets/35305021-4898-4b6a-9e5a-dfaaae265709" />
 
 
@@ -73,6 +76,17 @@ The code is written in Arduino C++
 | DEADLINE | Siren, "TIME'S UP!" | I press DONE or NOT DONE, or 2 minutes pass (not done) |
 | RESULT | "GREAT JOB!" or "NOT DONE" for 3 seconds | Timer ends, back to `WAITING` |
 | SKY | My stars | 5 seconds, or any button |
+
+**cad time:**:
+bottom case 
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/51da6545-f9c7-4d8c-bc59-7cde9270a3f5" />
+
+different view 
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ac3dd679-c100-449a-93e4-cc475e0d090d" />
+
+
 
 
 **First time / changing tasks**
