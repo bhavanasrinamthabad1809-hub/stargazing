@@ -124,15 +124,15 @@ Just look at it. It will tell you what to do
 | ------------ | -------: | ------------------- | ---------------------------- | ----: |
 | ESP32-C3 supermini    |        1 | Microcontroller     | [link](https://www.amazon.in/ESP32-Mini-Development-Board-Compatibility/dp/B0GQC8T6HV/ref=sr_1_8?crid=1YXDR902MUSIG&dib=eyJ2IjoiMSJ9.sGPT0TLrTVc4fjCA5M25kfKz9ewU1R1wIuoBckeM0x8HEPyzj9XwnklifiFo_89Bbb9mzE4WWo2DGeTRlLvV83Cb8s-klzuzTJVASNJNhv7Nqps-rZ-4lXOy6xMqxsJsVY7faohUpmPXMVEaXuAB03q0ysA6oRApeUPT93Cd3TyWsNSXOMPB1vQdJxj7mprZZuFzUoUwf0fJYcKTRnwLri9shof3BKq_yP47YysvE1c.27zLobKgGvnCgzQQ009P8C8V5wGSJ3_S2HBPNDYdVg8&dib_tag=se&keywords=esp32-c3+supermini&qid=1793557862&sprefix=esp32-c%2Caps%2C314&sr=8-8) | $8.21 |
 | OLED Display |        1 | Small display       | [link](https://www.amazon.in/gp/product/B07Q7VZ716/ref=sw_img_1?smid=&psc=1) |$3.16 |
-| 10K Resistor |        1 | Pull-up resistor    | [link](https://robocraze.com/products/10k-resistor-pack-of-10) ||
+| 10K Resistor |        1 | Pull-up resistor    | [link](https://robocraze.com/products/10k-resistor-pack-of-10) | $1|
 | switches  |        3 | User input buttons  | [link](https://www.amazon.in/gp/product/B0D9NGL25F/ref=ox_sc_act_title_6?smid=AJ6SIZC8YQDZX&psc=1) | $3.25 |
 |  buzzer |        1 | alarm  | [link](https://robu.in/product/1-month-warranty-1248/) | $0.53 |
-| PCB          |        1 | Custom-designed PCB | [link](https://jlcpcb.com/)  | |
-| coin  battery | 1 | to work without the connection  | [Link]() |  |
-| rtc module | 1 | time tracking | [Link]() |  |
+| PCB          |        1 | Custom-designed PCB | [link](https://jlcpcb.com/)  | $4|
+| coin  battery | 1 | to work without the connection  | [Link](https://www.amazon.in/Microusb-Compatible-LIR2032-Rechargeable-Lithium/dp/B0DVCFHYPP/ref=pd_ci_mcx_mh_mcx_views_0_image?pd_rd_w=3fkGF&content-id=amzn1.sym.e8c4e9fa-b01e-4fcd-baf4-e39b1f74d04d%3Aamzn1.symc.30e3dbb4-8dd8-4bad-b7a1-a45bcdbc49b8&pf_rd_p=e8c4e9fa-b01e-4fcd-baf4-e39b1f74d04d&pf_rd_r=V9FM312QK4R5BZ1GMBEE&pd_rd_wg=6VyQf&pd_rd_r=a8b9df57-f77d-4994-88d4-a724bc4c2e68&pd_rd_i=B0DVCFHYPP) | $4.04 |
+| rtc module | 1 | time tracking | [Link](https://robu.in/product/ds3231-rtc-module-precise-real-time-clock-i2c-at24c32/) | $1.32 |
 | S8050 transistor | 1 | works as a switch to buzzer | [Link]() |  |
 | 1k resistor | 1 | to work without the connection  | [Link]() |  |
-| jumper wires | 1 | to solder with rtc  | [Link]() |  |
+| jumper wires | 1 | to solder with rtc  | [Link](https://robu.in/product/male-to-female-jumper-wires-40pcs-20cm/) | $0.53 |
 | 1N4148 diode | 1 | to solder with rtc  | [Link](https://robu.in/product/1n4148-multicomp-pro-1n4148-diode-ultrafast-recovery-150ma-75v-do-204ah-2-2/) | $0.16 |
 | m3screws | 1 | to solder with rtc  | [Link]() |  |
 | pcb case | 1 | to place pcb  | [Link](https://robu.in/product/numaker-abs-filament-pure-white-1-75-mm-1-kg/) | $8.21  |
