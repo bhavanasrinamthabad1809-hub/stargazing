@@ -90,8 +90,22 @@ with pcb view
 
 <img width="1496" height="732" alt="image" src="https://github.com/user-attachments/assets/89469e6b-856c-424e-835b-a04203da65d7" />
 
+top case 
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2052f48a-dbd4-4e41-8827-fe78429ef090" />
+
+top view 
+
+<img width="1327" height="760" alt="image" src="https://github.com/user-attachments/assets/0e31833a-5cc0-4c74-a3c3-bad047d92b30" />
 
 
+top back side view 
+
+<img width="1401" height="767" alt="image" src="https://github.com/user-attachments/assets/0487fef6-dc53-46e4-8db9-6c0210b98436" />
+
+full box view 
+
+<img width="1347" height="650" alt="image" src="https://github.com/user-attachments/assets/86f19fb4-1dd8-4a1f-b5d1-2cb6ebb3b982" />
 
 
 **First time / changing tasks**
