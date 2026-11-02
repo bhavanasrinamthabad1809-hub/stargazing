@@ -118,6 +118,23 @@ full box view
 **Every day**
 Just look at it. It will tell you what to do
 
+## bill of materials 
+
+| Component    | Quantity | Description         | Source                       | Price |
+| ------------ | -------: | ------------------- | ---------------------------- | ----: |
+| ESP32-C3 supermini    |        1 | Microcontroller     | [link](https://www.amazon.in/ESP32-Mini-Development-Board-Compatibility/dp/B0GQC8T6HV/ref=sr_1_8?crid=1YXDR902MUSIG&dib=eyJ2IjoiMSJ9.sGPT0TLrTVc4fjCA5M25kfKz9ewU1R1wIuoBckeM0x8HEPyzj9XwnklifiFo_89Bbb9mzE4WWo2DGeTRlLvV83Cb8s-klzuzTJVASNJNhv7Nqps-rZ-4lXOy6xMqxsJsVY7faohUpmPXMVEaXuAB03q0ysA6oRApeUPT93Cd3TyWsNSXOMPB1vQdJxj7mprZZuFzUoUwf0fJYcKTRnwLri9shof3BKq_yP47YysvE1c.27zLobKgGvnCgzQQ009P8C8V5wGSJ3_S2HBPNDYdVg8&dib_tag=se&keywords=esp32-c3+supermini&qid=1793557862&sprefix=esp32-c%2Caps%2C314&sr=8-8) | $8.21 |
+| OLED Display |        1 | Small display       | [link](https://www.amazon.in/gp/product/B07Q7VZ716/ref=sw_img_1?smid=&psc=1) |$3.16 |
+| 10K Resistor |        1 | Pull-up resistor    | [link](https://robocraze.com/products/10k-resistor-pack-of-10) ||
+| switches  |        3 | User input buttons  | [link](https://www.amazon.in/gp/product/B0D9NGL25F/ref=ox_sc_act_title_6?smid=AJ6SIZC8YQDZX&psc=1) | $3.25 |
+|  buzzer |        1 | alarm  | [link](https://robu.in/product/1-month-warranty-1248/) | $0.53 |
+| PCB          |        1 | Custom-designed PCB | [link](https://jlcpcb.com/)  | |
+| coin  battery | 1 | to work without the connection  | [Link]() |  |
+| rtc module | 1 | time tracking | [Link]() |  |
+| S8050 transistor | 1 | works as a switch to buzzer | [Link]() |  |
+| 1k resistor | 1 | to work without the connection  | [Link]() |  |
+| jumper wires | 1 | to solder with rtc  | [Link]() |  |
+| 1N4148 diode | 1 | to solder with rtc  | [Link]() |  |
+| m3screws | 1 | to solder with rtc  | [Link]() |  |
 
 
 ## Made with
